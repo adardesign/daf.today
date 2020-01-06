@@ -24,7 +24,7 @@ class Profile extends React.Component {
           <section className="text-center">
             <div className="container">
               <Img fixed={profile} className="rounded-circle" />
-              <h1>jaxx2104</h1>
+              <h1>Eliazer</h1>
               <p className="lead text-muted">Front-end engineer.</p>
               <div>
                 <a

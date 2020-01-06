@@ -50,16 +50,8 @@ export const pageQuery = graphql`
         title
         path
         category
-        tags
         description
         date(formatString: "YYYY/MM/DD")
-        image {
-          childImageSharp {
-            fluid(maxWidth: 500) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }
