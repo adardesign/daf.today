@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    title: 'Daf Today דף היומי',
+    description:
+      'The daily daf program - לעילוי נשמת הילד יעקב יוסף בן אהרן דוד יודא',
+    siteUrl: 'https://daf.today',
+    author: 'Eliazer Braun',
+    twitter: '',
     adsense: '',
   },
   pathPrefix: '/',

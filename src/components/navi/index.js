@@ -28,9 +28,9 @@ class Navi extends React.Component {
                     : 'nav-item'
                 }
               >
-                <Link to="/profile/" className="nav-link">
+                {/* <Link to="/profile/" className="nav-link">
                   Profile
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>
