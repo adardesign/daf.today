@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Daf Today דף היומי',
+    title: 'daf.today - דף היומי',
     description:
       'The daily daf program - לעילוי נשמת הילד יעקב יוסף בן אהרן דוד יודא',
     siteUrl: 'https://daf.today',

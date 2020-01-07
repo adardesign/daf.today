@@ -15,23 +15,16 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Meta site={get(data, 'site.meta')} />
-      <h1 style={{ textAlign: 'center' }}>
-        לעילוי נשמת הילד יעקב יוסף בן אהרן דוד יודא{' '}
-      </h1>
-      {HDateInstance.dafyomi()}
+      <div style={{ textAlign: 'center' }}>
+        <h1 style={{ textAlign: 'center' }}>
+          לעילוי נשמת הילד יעקב יוסף בן אהרן דוד יודא{' '}
+        </h1>
 
-      <img src={`https://www.dafyomi.org/edafnew/Berachos/3a.jpg`} />
-      <img src={`https://www.dafyomi.org/edafnew/Berachos/3b.jpg`} />
+        <h2>{HDateInstance.dafyomi()}</h2>
 
-      {posts.map(({ post }, i) => (
-        <Post
-          data={post}
-          options={{
-            isIndex: true,
-          }}
-          key={i}
-        />
-      ))}
+        <img src={`https://www.dafyomi.org/edafnew/Berachos/3a.jpg`} />
+        <img src={`https://www.dafyomi.org/edafnew/Berachos/3b.jpg`} />
+      </div>
     </Layout>
   )
 }
