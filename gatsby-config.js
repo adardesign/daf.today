@@ -87,6 +87,12 @@ module.exports = {
         mergeCachingHeaders: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-155849665-1',
+      },
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
