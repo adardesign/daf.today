@@ -8,22 +8,15 @@ import Post from 'templates/post'
 import Meta from 'components/meta'
 import Layout from 'components/layout'
 
+import Daf from '../components/Daf'
 const BlogIndex = ({ data, location }) => {
-  const posts = get(data, 'remark.posts')
-  const HDateInstance = new Hebcal.HDate()
-
   return (
     <Layout location={location}>
       <Meta site={get(data, 'site.meta')} />
       <div style={{ textAlign: 'center' }}>
         <h1 style={{ textAlign: 'center' }}>
-          לעילוי נשמת הילד יעקב יוסף בן אהרן דוד יודא{' '}
+          לעילוי נשמת הילד יעקב יוסף בן אהרן דוד יודא <Daf />
         </h1>
-
-        <h2>{HDateInstance.dafyomi()}</h2>
-
-        <img src={`https://www.dafyomi.org/edafnew/Berachos/3a.jpg`} />
-        <img src={`https://www.dafyomi.org/edafnew/Berachos/3b.jpg`} />
       </div>
     </Layout>
   )
