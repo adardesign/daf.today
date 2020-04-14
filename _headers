@@ -1,0 +1,55 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/component---node-modules-gatsby-plugin-offline-app-shell-js-c1d1163580b94df298ae.js
+  Cache-Control: public, max-age=31536000, immutable
+/styles.a2ac1d9fd865d331cc5f.css
+  Cache-Control: public, max-age=31536000, immutable
+/styles-1883c323f50e16c58974.js
+  Cache-Control: public, max-age=31536000, immutable
+/commons-3dc83527ad5a5b8a145f.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-index-js-41a529ac10034c4effc5.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-041383a7a05a30e964c7.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-profile-js-3e98c7ac132d83c4567b.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-f2158f927d34d66f8242.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-e899606a86c9c62bdead.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/offline-plugin-app-shell-fallback/
+  Link: </webpack-runtime-f2158f927d34d66f8242.js>; rel=preload; as=script
+  Link: </commons-3dc83527ad5a5b8a145f.js>; rel=preload; as=script
+  Link: </app-e899606a86c9c62bdead.js>; rel=preload; as=script
+  Link: </component---node-modules-gatsby-plugin-offline-app-shell-js-c1d1163580b94df298ae.js>; rel=preload; as=script
+/hello-world/
+  Link: </webpack-runtime-f2158f927d34d66f8242.js>; rel=preload; as=script
+  Link: </commons-3dc83527ad5a5b8a145f.js>; rel=preload; as=script
+  Link: </app-e899606a86c9c62bdead.js>; rel=preload; as=script
+  Link: </styles-1883c323f50e16c58974.js>; rel=preload; as=script
+  Link: </commons-3dc83527ad5a5b8a145f.js>; rel=preload; as=script
+  Link: </component---src-templates-index-js-41a529ac10034c4effc5.js>; rel=preload; as=script
+/
+  Link: </webpack-runtime-f2158f927d34d66f8242.js>; rel=preload; as=script
+  Link: </commons-3dc83527ad5a5b8a145f.js>; rel=preload; as=script
+  Link: </app-e899606a86c9c62bdead.js>; rel=preload; as=script
+  Link: </styles-1883c323f50e16c58974.js>; rel=preload; as=script
+  Link: </commons-3dc83527ad5a5b8a145f.js>; rel=preload; as=script
+  Link: </component---src-pages-index-js-041383a7a05a30e964c7.js>; rel=preload; as=script
+/profile/
+  Link: </webpack-runtime-f2158f927d34d66f8242.js>; rel=preload; as=script
+  Link: </commons-3dc83527ad5a5b8a145f.js>; rel=preload; as=script
+  Link: </app-e899606a86c9c62bdead.js>; rel=preload; as=script
+  Link: </styles-1883c323f50e16c58974.js>; rel=preload; as=script
+  Link: </commons-3dc83527ad5a5b8a145f.js>; rel=preload; as=script
+  Link: </component---src-pages-profile-js-3e98c7ac132d83c4567b.js>; rel=preload; as=script
