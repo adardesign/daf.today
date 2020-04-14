@@ -5,9 +5,12 @@ const getGurrentDaf = () => {
   const HDateInstance = new Hebcal.HDate()
   const currentDaf = HDateInstance.dafyomi()
   let currentDafHebrew = HDateInstance.dafyomi('h')
+  console.log(currentDaf)
   console.log(currentDafHebrew)
   const map = {
     Berachot: 'Berachos',
+    Shabbat: 'Shabbos',
+    Eruvin: 'Eruvin',
   }
   let [mesechta, daf] = currentDaf.split(' ')
   currentDafHebrew = currentDafHebrew.replace("'", '')
@@ -22,7 +25,6 @@ const Daf = () => {
     // Update the document title using the browser API
   }, [])
 
-  console.log(currentDaf)
   return (
     <>
       {currentDaf && (
