@@ -11,10 +11,11 @@ const getGurrentDaf = () => {
     Berachot: 'Berachos',
     Shabbat: 'Shabbos',
     Eruvin: 'Eruvin',
+    Ps: 'Eruvin',
   }
   let [mesechta, daf] = currentDaf.split(' ')
   currentDafHebrew = currentDafHebrew.replace("'", '')
-  mesechta = map[mesechta.trim()]
+  mesechta = map[mesechta.trim()] || mesechta
   return { mesechta, daf, currentDafHebrew }
 }
 
